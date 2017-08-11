@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/cust_layout"
+    android:background="@color/white">
+
+
+    <TextView
+        android:text="TextView"
+        android:id="@+id/textView5"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignTop="@+id/imageView4"
+        android:layout_toRightOf="@+id/imageView4"
+        android:layout_width="250dp"
+        android:textSize="20sp" />
+
+    <ImageButton
+        app:srcCompat="@android:drawable/stat_sys_download"
+        android:layout_alignBottom="@+id/textView6"
+        android:layout_toEndOf="@+id/textView5"
+        android:id="@+id/imageButton3"
+        android:background="@drawable/dwnld_btn_setting"
+        android:layout_height="40dp"
+        android:layout_width="40dp"
+        android:layout_toRightOf="@+id/textView5" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/textView6"
+        android:layout_alignBottom="@+id/imageView4"
+        android:layout_toRightOf="@+id/imageView4"
+        android:layout_toEndOf="@+id/imageView4"
+        android:layout_width="250dp" />
+
+    <ImageView
+        app:srcCompat="@mipmap/ic_launcher"
+        android:id="@+id/imageView4"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:padding="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_home"
+    android:background="@drawable/blur_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.android.dor.activity.HomeActivity"
+    tools:showIn="@layout/app_bar_home">
+
+    <!--android:paddingBottom="@dimen/activity_vertical_margin"-->
+    <!--android:paddingLeft="@dimen/activity_horizontal_margin"-->
+    <!--android:paddingRight="@dimen/activity_horizontal_margin"-->
+    <!--android:paddingTop="@dimen/activity_vertical_margin"-->
+    <!---->
+    <!--<Button-->
+        <!--android:text="CLEAR"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/button4"-->
+        <!--android:layout_below="@+id/button2"-->
+        <!--android:layout_alignLeft="@+id/button2"-->
+        <!--android:layout_alignStart="@+id/button2" />-->
+
+    <!--<Button-->
+        <!--android:text="INCREASE"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="116dp"-->
+        <!--android:layout_marginStart="116dp"-->
+        <!--android:layout_marginTop="37dp"-->
+        <!--android:id="@+id/button2"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true" />-->
+
+
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+
+    <LinearLayout
+        android:id="@+id/sliderDots"
+        android:orientation="horizontal"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@+id/viewpager"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"></LinearLayout>
+
+    <Button
+        android:text="Do your contibution and get redeems"
+        android:background="@drawable/donate_button"
+        android:id="@+id/button2"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:textColor="@color/com_facebook_button_background_color_focused"
+        android:textSize="14sp"
+        android:layout_below="@+id/sliderDots"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp" />
+
+    <Button
+        android:text="Invite your friends and get exciting coupons"
+        android:background="@drawable/donate_button"
+        android:id="@+id/button3"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:textColor="@color/com_facebook_button_background_color_focused"
+        android:textSize="14sp"
+        android:layout_below="@+id/button2"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignStart="@+id/button2"
+        android:layout_marginTop="10dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blur_background"
+    tools:context="com.example.android.dor.activity.RegisterActivity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="48dp"
+        android:paddingRight="48dp"
+        android:paddingBottom="30dp"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:inputType="textPersonName"
+            android:hint="Name"
+            android:ems="10"
+            android:id="@+id/editText3"
+            android:background="@drawable/login_shadow_background"
+            android:layout_height="40dp"
+            android:textColorHint="@android:color/white"
+            android:drawableLeft="@mipmap/name"
+            android:drawablePadding="10dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/login_shadow_background"
+            android:layout_height="40dp"
+            android:textColorHint="@android:color/white"
+            android:inputType="textPersonName"
+            android:hint="Username"
+            android:ems="10"
+            android:id="@+id/editText4"
+            android:drawableLeft="@mipmap/ic_person_outline_white_24dp"
+            android:drawablePadding="10dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/login_shadow_background"
+            android:layout_height="40dp"
+            android:textColorHint="@android:color/white"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/editText10"
+            android:hint="Email"
+            android:drawableLeft="@mipmap/ic_mail_outline_white_24dp"
+            android:drawablePadding="10dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:hint="Password"
+            android:id="@+id/editText5"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/login_shadow_background"
+            android:layout_height="40dp"
+            android:textColorHint="@android:color/white"
+            android:drawableLeft="@mipmap/ic_https_white_24dp"
+            android:drawablePadding="10dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/editText6"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/login_shadow_background"
+            android:layout_height="40dp"
+            android:textColorHint="@android:color/white"
+            android:drawableLeft="@mipmap/ic_https_white_24dp"
+            android:drawablePadding="10dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+           android:hint="Age"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editText7"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/login_shadow_background"
+            android:layout_height="40dp"
+            android:textColorHint="@android:color/white"
+            android:drawableLeft="@mipmap/ic_cake_white_24dp"
+            android:drawablePadding="10dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="Phone"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editText8"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/login_shadow_background"
+            android:layout_height="40dp"
+            android:textColorHint="@android:color/white"
+            android:drawableLeft="@mipmap/ic_phone_white_24dp"
+            android:drawablePadding="10dp"/>
+
+        <Button
+            android:text="Create Account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button5"
+            android:layout_marginRight="60dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/login_button_settings"/>
+    </LinearLayout>
+</RelativeLayout>

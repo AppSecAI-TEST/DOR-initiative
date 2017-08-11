@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">DOR</string>
+    <string name="facebook_app_id">312866102478461</string>
+    <string name="facebook_login_protocol_scheme">fb312866102478461</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_logout">Log out</string>
+    <string name="action_noti">Notification</string>
+    <string name="error_message">Sorry report upload failed!!</string>
+    <string name="error_notification_message">Sorry notification upload failed!!</string>
+    <string name="content_desc_imgNoti">Notification Image</string>
+    <string name="textForName">Notification Name</string>
+    <string name="textDate">Notification Time</string>
+</resources>

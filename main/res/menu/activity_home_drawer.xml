@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <!--<item-->
+            <!--android:id="@+id/nav_notification"-->
+            <!--android:icon="@mipmap/ic_notifications_black_24dp"-->
+            <!--android:title="Notifications" />-->
+        <item
+            android:id="@+id/nav_volunteer"
+            android:icon="@mipmap/ic_directions_walk_black_24dp"
+            android:title="Volunteer" />
+        <item
+            android:id="@+id/nav_coupons"
+            android:icon="@mipmap/ic_card_giftcard_black_24dp"
+            android:title="Coupons and Offers" />
+        <item
+            android:id="@+id/nav_partner"
+            android:icon="@mipmap/ic_people_black_24dp"
+            android:title="Partner NGO's" />
+        <item
+            android:id="@+id/nav_reports"
+            android:icon="@mipmap/ic_assignment_black_24dp"
+            android:title="Reports" />
+    </group>
+
+    <!--<item android:title="Communicate">-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/nav_share"-->
+                <!--android:icon="@drawable/ic_menu_share"-->
+                <!--android:title="Share" />-->
+            <!--<item-->
+                <!--android:id="@+id/nav_send"-->
+                <!--android:icon="@drawable/ic_menu_send"-->
+                <!--android:title="Send" />-->
+        <!--</menu>-->
+    <!--</item>-->
+
+</menu>

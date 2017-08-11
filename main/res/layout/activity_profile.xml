@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.dor.activity.ProfileActivity">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="240dp"
+        app:srcCompat="@drawable/split2"
+        android:id="@+id/imageView7"
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="150dp"
+        android:id="@+id/imageView3"
+        android:layout_height="150dp"
+        android:layout_marginTop="143dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_height="50dp"
+        app:srcCompat="@android:drawable/ic_menu_camera"
+        android:id="@+id/imageButton2"
+        android:background="@drawable/dwnld_btn_setting"
+        android:layout_width="50dp"
+        android:layout_alignBottom="@+id/imageView3"
+        android:layout_alignRight="@+id/imageView3"
+        android:layout_alignEnd="@+id/imageView3" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/imageView3"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:text="Name"
+            android:layout_width="290dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView4"
+            android:background="@color/white"
+            android:textSize="18sp"
+            android:paddingLeft="10dp"
+            android:paddingTop="3dp"/>
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_menu_edit"
+            android:id="@+id/imageButton"
+            android:background="@color/white"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/layout1"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:text="Username"
+            android:layout_width="290dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView5"
+            android:background="@color/white"
+            android:textSize="18sp"
+            android:paddingLeft="10dp"
+            android:paddingTop="3dp"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_menu_edit"
+            android:id="@+id/imageButton3"
+            android:background="@color/white"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout3"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/layout2"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:text="Password"
+            android:layout_width="290dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView6"
+            android:background="@color/white"
+            android:textSize="18sp"
+            android:paddingLeft="10dp"
+            android:paddingTop="3dp"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_menu_edit"
+            android:id="@+id/imageButton4"
+            android:background="@color/white"
+            />
+    </LinearLayout>
+</RelativeLayout>
