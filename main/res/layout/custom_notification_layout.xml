@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:id="@+id/cust_noti_layout">
+    android:id="@+id/cust_noti_layout"
+    android:background="@color/white">
 
     <ImageView
         app:srcCompat="@android:drawable/presence_online"
@@ -13,6 +14,7 @@
         android:id="@+id/imageView5"
         android:layout_width="40dp"
         android:layout_height="50dp"
+        android:padding="10dp"
         android:contentDescription="@string/content_desc_imgNoti"/>
 
     <TextView
@@ -23,7 +25,9 @@
         android:layout_toRightOf="@+id/imageView5"
         android:layout_toEndOf="@+id/imageView5"
         android:layout_height="30dp"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        android:layout_marginTop="7dp"
+        android:paddingLeft="10dp"/>
 
     <TextView
         android:text="@string/textDate"
@@ -34,5 +38,6 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_toRightOf="@+id/imageView5"
-        android:layout_toEndOf="@+id/imageView5" />
+        android:layout_toEndOf="@+id/imageView5"
+        android:paddingLeft="10dp"/>
 </RelativeLayout>
